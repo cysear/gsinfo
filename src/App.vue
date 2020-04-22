@@ -42,6 +42,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
   html , body ,#app{ height: 100%; overflow-x: hidden; padding: 0; margin: 0;background-color: #F5F5F5}
-  h1,h2,h3,h4,h5,h6,ul,li,ol{ padding: 0; margin: 0;}
+  h1,h2,h3,h4,h5,h6,ul,li,ol,p{ padding: 0; margin: 0;}
   ul,li,ol{ list-style: none;}
 </style>

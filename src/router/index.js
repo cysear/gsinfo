@@ -30,6 +30,12 @@ export const constantRouterMap = [
         component: () => import('@/views/mobile/ComtList'),
         name: 'ComtList',
         meta: { title: '小区首页', noCache: true }
+      },
+      {
+        path: '/mHome/DetailInfo',
+        component: () => import('@/views/mobile/DetailInfo'),
+        name: 'DetailInfo',
+        meta: { title: '小区详情', noCache: true }
       }
     ]
   },

@@ -6,8 +6,9 @@ const getters = {
   loginDate: state => state.user.loginDate,
   name: state => state.user.name,
   userId: state => state.user.userId,
-  isLoading: state => state.base.isLoading,
-  direction: state => state.base.direction,
-  route:state => state.base.route,
+  demoScrollTop: state => state.vux.demoScrollTop,
+  isLoading: state => state.vux.isLoading,
+  direction: state => state.vux.direction,
+  route:state => state.route.route,
 }
 export default getters
